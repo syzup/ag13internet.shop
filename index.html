@@ -129,6 +129,25 @@
           </div>
         
   
+        <div class="modal fade" id="adModal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Welcome to My Online Voucher Store</title>    <link rel="stylesheet" href="styles.css">    <style>        body {            font-family: Arial, sans-serif;            background-color: #f4f4f4;            margin: 0;            padding: 20px;        }        header {            text-align: center;            padding: 50px;            background-color: #007BFF;            color: white;        }        main {            margin-top: 20px;            text-align: center;        }        .voucher-button {            padding: 15px 30px;            background-color: #28a745;            color: white;            border: none;            border-radius: 5px;            cursor: pointer;            font-size: 16px;        }        .voucher-button:hover {            background-color: #218838;        }    </style><header>    <h1>Welcome to My Online Voucher Store!</h1>    <p>Your one-stop shop for amazing vouchers and discounts!</p></header><main>    <h2>Explore Our Exclusive Offers</h2>    <p>Find the best deals on your favorite products and services.</p>    </main>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          window.addEventListener('load', () => {
+            new bootstrap.Modal(document.getElementById('adModal')).show();
+          });
+        </script>
+      
 
   <div class="mt-2">
       <center><button
